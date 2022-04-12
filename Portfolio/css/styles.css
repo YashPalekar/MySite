@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: monospace;
+    font-size: 120%;
+    background-color: #0d0a18;
+}
+
+h1{
+    margin: 0 auto;
+    color: #ecc7ac;
+    font-family: sacramento;
+}
+
+h2{
+    font-family: montserrat;
+    color: #ecc7ac;
+    margin-bottom: 80px;
+}
+
+h3{
+    font-family: montserrat;
+    color: #ecc7ac;
+    margin-bottom: 30px;
+}
+
+p{
+    color: white;
+    line-height: 1.5;
+}
+
+img{
+    object-fit: scale-down;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+hr{
+    border: dotted #75476e 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 80px auto;
+}
+
+.top-container{
+    background-image: linear-gradient(to bottom,#17122a,#3e285a,#75476e,#975874,#af737f,#ecc7ac,white,white);
+    padding-top: 100px;
+    position: relative;
+
+}
+
+.moon{
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    left: 43%;
+    top: 6%;
+}
+
+.intro{
+    position: absolute;
+    left: 43%;
+    top: 27%;
+    font-size: 150%;
+}
+
+.large-font{
+    font-size: 4.5rem;
+}
+
+.middle-container{
+    margin: 80px auto;
+}
+
+.profile{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.profile-photo{
+    width: 25%;
+    border-radius: 600px;
+    margin-bottom: 80px;
+}
+
+.skill-row{
+    width: 50%;
+
+    margin: 100px auto;
+    text-align: left;
+}
+
+.skill-1{
+    width: 15%;
+    float: left;
+    mix-blend-mode: color-dodge;
+    padding-right: 3rem;
+}
+
+.skill-2{
+    width: 15%;
+    float: right;
+    mix-blend-mode: color-dodge;
+    padding-left: 3rem;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: #975874;
+}
+
+.footer-link:hover{
+    text-decoration: solid;
+    color: #ffa551;
+}
+
+.btn {
+    border-radius: 3px;
+    font-family: monospace;
+    color: #ffffff;
+    font-size: 20px;
+    background: #af737f;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 30px;
+  }
+  
+  .btn:hover {
+    background: #edad74;
+    text-decoration: none;
+  }
+
+  .bottom-container{
+      background-color: #17122a;
+      padding: 16px 0;
+  }
+
+
+/* palette dark 5
+            #1B262C     black
+            #0F4C75     dark blue
+            #3282B8     mid blue
+            #BBE1FA     light blue */
