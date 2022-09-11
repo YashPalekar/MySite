@@ -2,7 +2,7 @@ body{
     margin: 0;
     text-align: center;
     font-family: monospace;
-    font-size: 120%;
+    font-size: 1.5em;
     background-color: #0d0a18;
 }
 
@@ -62,7 +62,8 @@ hr{
     position: absolute;
     left: 43%;
     top: 27%;
-    font-size: 150%;
+    transform: translate(-18%, -20%);
+    font-size: 2vw;
 }
 
 .large-font{
@@ -138,6 +139,16 @@ hr{
   }
 
 
+
+
+  @media screen and (max-width: 1080px) {
+    .intro {
+        font-size : 3vw;
+    }
+    body {
+        font-size: 1rem;
+    }
+  }
 /* palette dark 5
             #1B262C     black
             #0F4C75     dark blue
